@@ -5,7 +5,7 @@ var colr = "white";
 window.addEventListener("DOMContentLoaded", loadSVG);
 
 async function loadSVG() {
-  let svgData = await fetch("p.svg");
+  let svgData = await fetch("sp.svg");
   let svgFile = await svgData.text();
   document.querySelector("#theSVG").innerHTML = svgFile;
 
@@ -32,9 +32,9 @@ buttons.forEach(setClr);
 function setClr(btn) {
   btn.addEventListener("click", function() {
     colr = this.id;
-    // if (btn.id == "reset") {
-    //   location.reload();
-    // }
+    if (btn.id == "reset") {
+      location.reload();
+    }
   });
   btn.style.backgroundColor = btn.id;
 }
