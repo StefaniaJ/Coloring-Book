@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.eye-l {
+    animation: move-l 1s infinite ease;
+}
+
+.eye-r {
+    animation: move-r 1s infinite ease;
+}
+
+
+
+
+@keyframes move-l {
+    from {
+        cx: 170;
+        cy: 80;
+    }
+
+    to {
+        cx: 175;
+        cy: 90;
+    }
+}
+
+
+
+@keyframes move-r {
+    from {
+        cx: 230;
+        cy: 80;
+    }
+
+    to {
+        cx: 235;
+        cy: 90;
+    }
+}
+
+
+
+
+
+
+
+
+#circle1 {
+    animation: move 1s infinite ease;
+}
+
+@keyframes move {
+    from {
+        cx: 150;
+        cy: 30;
+    }
+
+    to {
+        cx: 200;
+        cy: 50;
+    }
+}

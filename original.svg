@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 356.51 180.94">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 32px;
+        font-family: GlassAntiqua-Regular, Glass Antiqua;
+      }
+
+      .cls-2 {
+        letter-spacing: 0.01em;
+      }
+
+      .cls-3 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-4 {
+        font-size: 12px;
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-5 {
+        fill: red;
+      }
+
+      .cls-6 {
+        fill: none;
+        stroke-linejoin: round;
+      }
+
+      .cls-6, .cls-7, .cls-8 {
+        stroke: #000;
+        stroke-width: 2px;
+      }
+
+      .cls-7 {
+        fill: #ff0;
+      }
+
+      .cls-7, .cls-8 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-8 {
+        fill: #3f0;
+      }
+    </style>
+  </defs>
+  <title>original</title>
+  <g id="texts">
+    <text class="cls-1" transform="translate(12.12 49.39) scale(0.9 1)">Ex<tspan class="cls-2" x="30.69" y="0">p</tspan><tspan x="46.4" y="0">ort as S</tspan><tspan class="cls-3" x="134.27" y="0">V</tspan><tspan x="150.49" y="0">G</tspan></text>
+    <text id="Headline" class="cls-4" transform="translate(0 10.3)">SVG test</text>
+  </g>
+  <g id="Shapes">
+    <g id="Square">
+      <rect class="cls-5" x="10.79" y="83.53" width="99.49" height="91.92"/>
+      <rect class="cls-6" x="10.79" y="83.53" width="99.49" height="91.92"/>
+    </g>
+    <circle id="Circle" class="cls-7" cx="188.82" cy="131.71" r="48.23"/>
+    <path id="Triangle" class="cls-8" d="M319,93,276.5,172.54a5.69,5.69,0,0,0,5,8.37H366.6a5.69,5.69,0,0,0,5-8.37L329.07,93A5.69,5.69,0,0,0,319,93Z" transform="translate(-16.79 -5.86)"/>
+  </g>
+</svg>
