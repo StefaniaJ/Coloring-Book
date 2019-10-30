@@ -5,11 +5,18 @@
     font: 700 1em/1.25 'Playfair Display', sans-serif;
 }
 
+#title {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+    display: none;
+}
 
 #Layer_1 {
     width: 38vw;
     height: auto;
-    border: 1px solid red;
+    border: 1px solid black;
     margin-left: -17px;
 }
 
@@ -148,6 +155,39 @@ footer:after {
     border-top-left-radius: 0;
 }
 
+
+@media screen and (min-width: 200px) and (max-width: 500px) {
+    body {
+        background-color: #8B4513;
+    }
+
+    #title {
+        display: block;
+    }
+
+    .open-book {
+        padding: 2em;
+        position: initial;
+        margin: 0;
+    }
+
+    .open-book::before {
+        display: none;
+    }
+
+    .open-book:after {
+        display: none;
+    }
+
+    .open-book>* {
+        column-count: 1;
+        position: initial;
+    }
+
+    #Layer_1 {
+        width: 83vw;
+    }
+}
 
 
 @media screen and (min-width: 760px) {
