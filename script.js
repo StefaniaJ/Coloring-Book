@@ -1,22 +1,26 @@
 "use strict";
-let buttons = document.querySelectorAll("button");
-var colr = "white";
 
-window.addEventListener("DOMContentLoaded", loadSVG);
+let colr = "white";
+
+window.addEventListener("DOMContentLoaded", start);
+
+function start() {
+  loadSVG();
+  loadBtns();
+}
 
 //Fetch the character
 async function loadSVG() {
   let svgData = await fetch("sp.svg");
   let svgFile = await svgData.text();
   document.querySelector("#theSVG").innerHTML = svgFile;
-  //call the event listener for character
+  //call the event listener for character and colors
   registerEvent();
-  loadBtns();
 }
 
-//Fetch the buttons
+//Fetch the colors palette
 async function loadBtns() {
-  let btnsData = await fetch("colors.svg");
+  let btnsData = await fetch("colorsp.svg");
   let btnsFile = await btnsData.text();
   document.querySelector("#theColors").innerHTML = btnsFile;
   //call the event listener for buttons
@@ -26,13 +30,9 @@ async function loadBtns() {
 //add an event listener for every shapes of character
 function registerEvent() {
   document.querySelector("#Shapes").addEventListener("click", clickShapes);
-  // document
-  //   .querySelector("#colors-palette")
-  //   .addEventListener("click", clickColors);
 }
-
+//add an event listener for every color
 function registerColors() {
-  document.querySelector("#Shapes").addEventListener("click", clickShapes);
   document.querySelector("#Colors").addEventListener("click", clickColors);
 }
 
@@ -46,17 +46,13 @@ function clickShapes(event) {
 }
 
 function clickColors(event) {
-  // buttons.forEach(setClr);
-  // function setClr(btn) {
-  //   btn.addEventListener("click", function() {
-  //     colr = this.id;
-  //     if (btn.id == "reset") {
-  //       location.reload();
-  //     }
-  //   });
-  //   btn.style.backgroundColor = btn.id;
-  //}
   const target = event.target;
+  colr = target.id;
+  if (target.id == "reset") {
+    location.reload();
+  }
+
   console.log("color: ");
   console.log(target);
+  console.log("palette:" + target.style.fill);
 }
