@@ -1,12 +1,12 @@
 "use strict";
 
-let colr = "white";
+let colr = "";
 
 window.addEventListener("DOMContentLoaded", start);
 
 function start() {
   loadSVG();
-  loadBtns();
+  loadColors();
 }
 
 //Fetch the character
@@ -14,16 +14,16 @@ async function loadSVG() {
   let svgData = await fetch("sp.svg");
   let svgFile = await svgData.text();
   document.querySelector("#theSVG").innerHTML = svgFile;
-  //call the event listener for character and colors
+  //call the event listener for character
   registerEvent();
 }
 
 //Fetch the colors palette
-async function loadBtns() {
+async function loadColors() {
   let btnsData = await fetch("colorsp.svg");
   let btnsFile = await btnsData.text();
   document.querySelector("#theColors").innerHTML = btnsFile;
-  //call the event listener for buttons
+  //call the event listener for colors
   registerColors();
 }
 
@@ -36,13 +36,17 @@ function registerColors() {
   document.querySelector("#Colors").addEventListener("click", clickColors);
 }
 
-//When you click a shape, add color white
+//When you click a shape, add a color
 function clickShapes(event) {
   const target = event.target;
-  console.log("clicked: ");
-  console.log(target);
-  console.log("Color:" + target.style.fill);
-  target.style.fill = colr;
+
+  if (colr == "") {
+    alert("Please select a color to fill this field");
+  } else {
+    target.style.fill = colr;
+  }
+  console.log("clicked: " + target);
+  console.log("Shape color:" + target.style.fill);
 }
 
 function clickColors(event) {
@@ -52,7 +56,5 @@ function clickColors(event) {
     location.reload();
   }
 
-  console.log("color: ");
-  console.log(target);
   console.log("palette:" + target.style.fill);
 }
