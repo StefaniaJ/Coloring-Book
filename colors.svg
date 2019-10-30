@@ -1,0 +1,19 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="392" height="124.5" viewBox="0 0 392 124.5">
+  <title>colors</title>
+  <g id="Colors">
+  <text id="tt" x="-9.5" y="-14.5"/>  <circle id="yellow" cx="76" cy="23" r="22.5" style="fill: #fdeb01"/>
+  <circle id="blue" cx="135" cy="78" r="22.5" style="fill: #39c3de;stroke: #231f20;stroke-miterlimit: 10"/>
+  <circle id="brown" cx="76" cy="78" r="22.5" style="fill: #984956;stroke: #231f20;stroke-miterlimit: 10"/>
+  <circle id="orange" cx="23" cy="78" r="22.5" style="fill: #f07868;stroke: #231f20;stroke-miterlimit: 10"/>
+  <circle id="pink" cx="193.149" cy="78" r="22.5" style="fill: #f17bb0;stroke: #231f20;stroke-miterlimit: 10"/>
+  <circle id="gray" cx="310.5" cy="77" r="22.5" style="fill: #686868;stroke: #231f20;stroke-miterlimit: 10"/>
+  <circle id="white" cx="368.394" cy="23" r="22.5" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10"/>
+  <circle id="black" cx="249.5" cy="76" r="22.5" style="fill: #231f20;stroke: #231f20;stroke-miterlimit: 10"/>
+  <circle id="darkgreen" cx="310.5" cy="23" r="22.5" style="fill: #1a4520;stroke: #231f20;stroke-miterlimit: 10"/>
+  <circle id="purple" cx="249.5" cy="23" r="22.5" style="fill: #b43f97;stroke: #231f20;stroke-miterlimit: 10"/>
+  <circle id="darkblue" cx="193.149" cy="23" r="22.5" style="fill: #45479d;stroke: #231f20;stroke-miterlimit: 10"/>
+  <circle id="green" cx="135" cy="23" r="22.5" style="fill: #11a24a;stroke: #231f20;stroke-miterlimit: 10"/>
+  <circle id="red" cx="23" cy="23" r="22.5" style="fill: #ed2024"/>
+  <circle id="darkpurple" cx="369" cy="76" r="22.5" style="fill: #691e5d;stroke: #231f20;stroke-miterlimit: 10"/>
+  </g>
+</svg>
