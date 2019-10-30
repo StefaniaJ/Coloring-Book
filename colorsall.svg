@@ -1,0 +1,25 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="543.96" height="173.08" viewBox="0 0 543.96 173.08">
+  <title>colorsall</title>
+    <g id="Colors">
+  <text id="tt" x="-7.5" y="-5.42"/>  <circle id="yellow" cx="78" cy="32.08" r="22.5" style="fill: #fdeb01"/>
+  <circle id="blue" cx="137" cy="87.08" r="22.5" style="fill: #39c3de"/>
+  <circle id="brown" cx="370.39" cy="86.08" r="22.5" style="fill: #8f5b40"/>
+  <circle id="orange" cx="25" cy="87.08" r="22.5" style="fill: #f57e2b"/>
+  <circle id="pink" cx="195.15" cy="87.08" r="22.5" style="fill: #f17bb0"/>
+  <circle id="gray" cx="312.5" cy="86.08" r="22.5" style="fill: #686868"/>
+  <circle id="white" cx="370.39" cy="32.08" r="22.5" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10"/>
+  <circle id="black" cx="251.5" cy="85.08" r="22.5" style="fill: #231f20"/>
+  <circle id="darkgreen" cx="312.5" cy="32.08" r="22.5" style="fill: #1a4520"/>
+  <circle id="purple" cx="251.5" cy="32.08" r="22.5" style="fill: #b43f97"/>
+  <circle id="darkblue" cx="195.15" cy="32.08" r="22.5" style="fill: #45479d"/>
+  <circle id="green" cx="137" cy="32.08" r="22.5" style="fill: #11a24a"/>
+  <circle id="red" cx="25" cy="32.08" r="22.5" style="fill: #ed2024"/>
+  <circle id="darkpurple" cx="78.85" cy="87.08" r="22.5" style="fill: #691e5d"/>
+  <rect y="128.58" width="95" height="44.5" rx="20" style="fill: #606161"/>
+  <text transform="translate(24 156.58)" style="font-size: 19px;fill: #fff;font-family: MyriadPro-Regular, Myriad Pro">RES<tspan x="28.94" y="0" style="letter-spacing: 0.015984786184210526em">E</tspan><tspan x="38.59" y="0">T</tspan></text>
+  </g>
+  <g id="Boxs">
+  <rect id="box" x="446.5" y="35.58" width="72" height="72" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10"/>
+  <text id="colorTitle" transform="translate(419.5 17.58)" style="font-size: 21px;fill: #231f20;font-family: MyriadPro-Regular, Myriad Pro"><tspan style="letter-spacing: -0.01097470238095238em">C</tspan><tspan x="11.95" y="0" style="letter-spacing: -0.00004650297619047619em">olor sele</tspan><tspan x="85.59" y="0" style="letter-spacing: 0.012974330357142858em">c</tspan><tspan x="95.28" y="0" style="letter-spacing: -0.005998883928571429em">t</tspan><tspan x="102.1" y="0">ed</tspan></text>
+</g>
+</svg>

@@ -1,7 +1,6 @@
 "use strict";
 
 let colr = "";
-const box = document.querySelector("#square");
 
 window.addEventListener("DOMContentLoaded", start);
 
@@ -63,6 +62,5 @@ function clickColors(event) {
 }
 
 function showColor() {
-  // const target = event.target;
-  box.style.backgroundColor = colr;
+  document.querySelector("#square").style.backgroundColor = colr;
 }
