@@ -1,6 +1,7 @@
 "use strict";
 
 let colr = "";
+const box = document.querySelector("#square");
 
 window.addEventListener("DOMContentLoaded", start);
 
@@ -57,6 +58,11 @@ function clickColors(event) {
   if (target.id == "reset") {
     location.reload();
   }
-
+  showColor();
   console.log("palette:" + target.style.fill);
+}
+
+function showColor() {
+  // const target = event.target;
+  box.style.backgroundColor = colr;
 }
