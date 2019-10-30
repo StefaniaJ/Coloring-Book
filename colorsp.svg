@@ -16,6 +16,6 @@
   <circle id="red" cx="22.5" cy="23" r="22.5" style="fill: #ed2024"/>
   <circle id="darkpurple" cx="76.35" cy="78" r="22.5" style="fill: #691e5d"/>
   <rect x="408" y="28.5" width="95" height="44.5" rx="20" style="fill: #606161"/>
-  <text id="reset" transform="translate(432 56.5)" style="font-size: 19px;fill: #fff;font-family: MyriadPro-Regular, Myriad Pro">RES<tspan x="28.94" y="0" style="letter-spacing: 0.015984786184210526em">E</tspan><tspan x="38.59" y="0">T</tspan></text>
+  <text id="reset" transform="translate(432 56.5)" style="font-size: 19px;fill: #fff;font-family: MyriadPro-Regular, Myriad Pro">RES<tspan x="34" y="0" style="letter-spacing: 0.015984786184210526em">E</tspan><tspan x="44" y="0">T</tspan></text>
 </g>
 </svg>

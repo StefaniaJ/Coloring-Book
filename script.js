@@ -20,9 +20,9 @@ async function loadSVG() {
 
 //Fetch the colors palette
 async function loadColors() {
-  let btnsData = await fetch("colorsp.svg");
-  let btnsFile = await btnsData.text();
-  document.querySelector("#theColors").innerHTML = btnsFile;
+  let colorsData = await fetch("colorsp.svg");
+  let colorsFile = await colorsData.text();
+  document.querySelector("#theColors").innerHTML = colorsFile;
   //call the event listener for colors
   registerColors();
 }
@@ -36,7 +36,7 @@ function registerColors() {
   document.querySelector("#Colors").addEventListener("click", clickColors);
 }
 
-//When you click a shape, add a color
+//When you click a shape, add selected color (if any)
 function clickShapes(event) {
   const target = event.target;
 
@@ -49,9 +49,11 @@ function clickShapes(event) {
   console.log("Shape color:" + target.style.fill);
 }
 
+//When you click a color, select it
 function clickColors(event) {
   const target = event.target;
   colr = target.id;
+
   if (target.id == "reset") {
     location.reload();
   }
